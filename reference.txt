@@ -1,0 +1,40 @@
+https://qiita.com/haveAbook/items/d21d1fa612960316fb8f
+https://qiita.com/yutosa3/items/25ab031c8061e8c9a4c4
+
+<gitの始め方>
+# 0. (ディレクトリに最低限のファイルを用意)
+# 1. パーソナルアクセストークンの作成
+# glpat-gxqfMbmGve6z_VhxBjHr
+# 初期設定
+# git config --global user.name meitosyou
+# git config --global user.email syou0207krjp@gmail.com
+# 2. コマンドの実行
+# git init
+# git add -A
+# git commit -m "first commit"
+# git remote add origin https://meitosyou:glpat-gxqfMbmGve6z_VhxBjHr@gitlab.com/confidential_information_detection/detection_method_25k.git
+# git branch -M main
+# git push -uf origin main
+# 3. mainブランチの設定を変更 (「保護されたブランチ」の設定で、強制pushを許可する)
+# GitLab にログイン（GitLab公式サイト）
+# リポジトリの「Settings」 → 「Repository」 を開く
+# 「Protected branches」セクション を探す
+# main ブランチが「保護」されている場合：
+# Allow force push（強制プッシュを許可）を ON もしくは main ブランチの保護を解除
+
+<git の基本的な使い方>
+# (mainブランチにてマージが終わった状態からスタート)
+# 1. git branch feature_xxx (featureブランチを作成)
+# 2. git checkout feature_xxx (featureブランチへ移動)
+# 3. git branch で現在いるブランチを確認
+# 4. 開発をする
+# 5. git add . (featureブランチ上で開発をローカルに反映1)
+# 6. git commit -m "コミットメッセージ" (featureブランチ上で開発をローカルに反映2)
+# 7. git checkout main (mainブランチに戻る)
+#　 　git branch で現在いるブランチを確認
+# 8. git merge feature_xxx (mainブランチにfeatureブランチの変更をマージする)
+# 9. git branch -d feature_xxx (featureブランチは不要となったので消す)
+# 10. git push origin main (mainブランチの変更をgitlab上に反映させる)
+
+<ファイルの説明>
+
