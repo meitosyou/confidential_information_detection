@@ -4,15 +4,14 @@ https://qiita.com/yutosa3/items/25ab031c8061e8c9a4c4
 <gitの始め方>
 # 0. (ディレクトリに最低限のファイルを用意)
 # 1. パーソナルアクセストークンの作成
-# glpat-gxqfMbmGve6z_VhxBjHr
 # 初期設定
 # git config --global user.name meitosyou
-# git config --global user.email syou0207krjp@gmail.com
+# git config --global user.email 
 # 2. コマンドの実行
 # git init
 # git add -A
 # git commit -m "first commit"
-# git remote add origin https://meitosyou:glpat-gxqfMbmGve6z_VhxBjHr@gitlab.com/confidential_information_detection/detection_method_25k.git
+# git remote add origin https://account:pass@gitlab.com/confidential_information_detection/detection_method_25k.git
 # git branch -M main
 # git push -uf origin main
 # 3. mainブランチの設定を変更 (「保護されたブランチ」の設定で、強制pushを許可する)
