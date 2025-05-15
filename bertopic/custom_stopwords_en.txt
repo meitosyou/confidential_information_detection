@@ -1,0 +1,69 @@
+# 一般的な助動詞
+would
+could
+should
+might
+must
+
+# 一般的な代名詞
+he
+she
+they
+we
+it
+
+# 一般的な前置詞
+in
+on
+at
+by
+for
+with
+about
+
+# 一般的な接続詞
+and
+but
+or
+nor
+for
+yet
+so
+
+# 一般的な動詞の活用形
+am
+is
+are
+was
+were
+be
+been
+being
+have
+has
+had
+having
+do
+does
+did
+doing
+
+# その他の一般的な単語
+really
+very
+just
+like
+well
+good
+great
+thing
+things
+something
+anything
+everything
+way
+much
+many
+several
+some
+any
